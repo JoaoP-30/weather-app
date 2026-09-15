@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout
-from PyQt5.Qt import Qt
+from PyQt5.QtCore import Qt
 from weather_service import WeatherService, WeatherServiceError
 
 
@@ -14,6 +14,8 @@ class WeatherApp(QWidget):
         self.temperature_label = QLabel(self)
         self.emoji_label = QLabel(self)
         self.description_label = QLabel(self)
+
+        self.initUI()
 
     def initUI(self):
 
