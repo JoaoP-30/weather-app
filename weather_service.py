@@ -13,7 +13,7 @@ class WeatherServiceError(Exception):
 class WeatherService:
 
     @staticmethod
-    def get_weather(city: str) -> dict:
+    def fetch_data(city: str) -> dict:
 
         api_key = os.getenv("WEATHER_API_KEY")
 
