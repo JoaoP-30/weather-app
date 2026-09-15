@@ -36,10 +36,10 @@ Antes de começar, você precisará ter o **Python 3.10+** e o **Git** instalado
 
 ### 1. Clonar o repositório
 
-```bash
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-cd seu-repositorio
-```
+ ```bash
+   git clone https://github.com/JoaoP-30/weather-app.git
+   cd weather-app
+ ```
 
 ### 2. Criar e ativar um ambiente virtual (Opcional)
 
